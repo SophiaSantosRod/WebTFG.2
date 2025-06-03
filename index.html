@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Colección de Moda</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">Skinana 3DStudio</div>
+            <ul class="nav-links">
+                <li><a href="#coleccion">Colección</a></li>
+                <li><a href="#sobre-nosotros">Sobre Skinana</a></li>
+                <li><a href="#contact">Contacto</a></li>
+            </ul>
+            <div class="menu-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <video src="img/VideoPortada.mp4" alt="Fondo animado" class="video-fondo" autoplay muted loop
+            playsinline></video>
+        <div class="contenido-hero">
+            <h1>INternAtionaLLy, <br> ShibuYA 109</h1>
+            <p>Colección Cápsula de Moda Virtual</p>
+            <button onclick="scrollToSection('coleccion')">Ver lookbook</button>
+        </div>
+    </section>
+
+
+
+    <section id="coleccion" class="coleccion">
+
+        <div class="feature">
+            <div class="imagenes">
+                <div class="thumbnails">
+                    <div class="thumb" data-type="video" data-src="img/360Look1.mp4" aria-label="Vídeo de portada">
+                        <video muted loop playsinline preload="metadata" poster="img/1c.jpg" class="thumb-video">
+                            <source src="img/360Look1.mp4" type="video/mp4">
+                        </video>
+                    </div>
+
+
+                    <div class="thumb" data-type="image" data-src="img/1b.jpg"
+                        style="background-image: url('img/1b.jpg');" aria-label="Mostrar imagen 2"></div>
+                    <div class="thumb" data-type="image" data-src="img/1a.jpg"
+                        style="background-image: url('img/1a.jpg');" aria-label="Mostrar imagen 3"></div>
+                </div>
+
+                <div class="imagen" data-current-type="video"></div>
+            </div>
+
+            <div class="texto">
+                <h3>In my job I serve looks</h3>
+                <p>
+                    The office siren. Las prendas ajustadas y satinadas, además de cortas,
+                    hacen una pequeña mueca a lo que una chica de oficina debería ser.
+                    Exagerando su sexualidad y alimentándose de su poder, los tacones
+                    puntiagudos y su pequeño maletín dejan claro que ella manda por donde
+                    pisa. El look no se queda ahí, la falda con la bandera de Japón también
+                    tiene mucha simbología, la cultura del rábano de los japoneses.
+                </p>
+            </div>
+        </div>
+
+
+
+        <div class="feature">
+            <div class="imagenes">
+                <div class="thumbnails">
+                    <div class="thumb" data-type="video" data-src="img/360Look6.mp4" aria-label="Vídeo de portada">
+                        <video muted loop playsinline preload="metadata" poster="img/6c.jpg" class="thumb-video">
+                            <source src="img/360Look6.mp4" type="video/mp4">
+                        </video>
+                    </div>
+
+
+                    <div class="thumb" data-type="image" data-src="img/6b.jpg"
+                        style="background-image: url('img/6b.jpg');" aria-label="Mostrar imagen 2"></div>
+                    <div class="thumb" data-type="image" data-src="img/6a.jpg"
+                        style="background-image: url('img/6a.jpg');" aria-label="Mostrar imagen 3"></div>
+                </div>
+
+                <div class="imagen" data-current-type="video"></div>
+            </div>
+            <div class="texto">
+                <h3>Un rodeo por coachella</h3>
+                <p>Botas cowboy con flecos y un bolso plateado se unen a la fiebre western-metallic que domina el street
+                    style global. Este combo de rebeldía se suaviza con un top off-shoulder
+                    de aire romántico y una boina estilo 2000s que añade nostalgia y dulzura. Una mezcla ganadora entre
+                    la rudeza del desierto y la suavidad de un cuento de hadas pop.
+                </p>
+            </div>
+        </div>
+
+        <div class="feature">
+            <div class="imagenes">
+                <div class="thumbnails">
+                    <div class="thumb" data-type="video" data-src="img/360Look7.mp4" aria-label="Vídeo de portada">
+                        <video muted loop playsinline preload="metadata" poster="img/7c.jpg" class="thumb-video">
+                            <source src="img/360Look7.mp4" type="video/mp4">
+                        </video>
+                    </div>
+
+
+                    <div class="thumb" data-type="image" data-src="img/7b.jpg"
+                        style="background-image: url('img/7b.jpg');" aria-label="Mostrar imagen 2"></div>
+                    <div class="thumb" data-type="image" data-src="img/7a.jpg"
+                        style="background-image: url('img/7a.jpg');" aria-label="Mostrar imagen 3"></div>
+                </div>
+
+                <div class="imagen" data-current-type="video"></div>
+            </div>
+            <div class="texto">
+                <h3>Paris Called, She Wants Her Look Back</h3>
+                <p>La unión total de la moda urbana de Estados Unidos y la estética rebelde de las Gyarus japonesas.
+                    Este look cuenta con una gorra de los New Yorkers,
+                    animal print, denim y mucho baby pink. Todo se suma a la estética coquette actual, que se
+                    caracteriza por su romanticismo y su nostalgia femenina.
+                    Combina lo más fuerte, como es el pelaje de un leopardo, con lo más tierno y delicado, lazos rositas
+                    everywhere.
+                </p>
+            </div>
+        </div>
+
+        <div class="feature">
+            <div class="imagenes">
+                <div class="thumbnails">
+                    <div class="thumb" data-type="video" data-src="img/360Look2.mp4" aria-label="Vídeo de portada">
+                        <video muted loop playsinline preload="metadata" poster="img/2c.jpg" class="thumb-video">
+                            <source src="img/360Look2.mp4" type="video/mp4">
+                        </video>
+                    </div>
+
+
+                    <div class="thumb" data-type="image" data-src="img/2b.jpg"
+                        style="background-image: url('img/2b.jpg');" aria-label="Mostrar imagen 2"></div>
+                    <div class="thumb" data-type="image" data-src="img/2a.jpg"
+                        style="background-image: url('img/2a.jpg');" aria-label="Mostrar imagen 3"></div>
+                </div>
+
+                <div class="imagen" data-current-type="video"></div>
+            </div>
+            <div class="texto">
+                <h3>Don’t follow trends. Be the reason they exist.</h3>
+                <p>Dior, sandalias altas con flores, gafas gigantes, fular en el cuello y unos pantaloncitos capri. “El
+                    look tendencia” podría ser el nombre adecuado
+                    para este conjunto. Usando tonalidades complementarias y telas como el satén y el encaje, este
+                    modélico grita fashionista, conocedor de la actualidad a la vez que del lujo,
+                    de la combinación de colores como de texturas. Ropa que nunca envejecerá combinada con lo más
+                    reciente. </p>
+            </div>
+        </div>
+
+
+        <div class="feature">
+            <div class="imagenes">
+                <div class="thumbnails">
+                    <div class="thumb" data-type="video" data-src="img/360Look8.mp4" aria-label="Vídeo de portada">
+                        <video muted loop playsinline preload="metadata" poster="img/8c.jpg" class="thumb-video">
+                            <source src="img/360Look8.mp4" type="video/mp4">
+                        </video>
+                    </div>
+
+
+                    <div class="thumb" data-type="image" data-src="img/8b.jpg"
+                        style="background-image: url('img/8b.jpg');" aria-label="Mostrar imagen 2"></div>
+                    <div class="thumb" data-type="image" data-src="img/8a.jpg"
+                        style="background-image: url('img/8a.jpg');" aria-label="Mostrar imagen 3"></div>
+                </div>
+
+                <div class="imagen" data-current-type="video"></div>
+            </div>
+            <div class="texto">
+                <h3>Harajuku It-girl</h3>
+                <p>La combinación perfecta entre ternura, actitud y devoción por los accesorios, el conjunto está muy
+                    inspirado en la nueva generación de gyarus, chicas japonesas de
+                    instituto que les gusta darle más personalidad a sus uniformes aburridos. El gran lazo, la flor en
+                    el pecho y el clip de Miffy le dan personalidad y remarcan ese toque
+                    de dulzura, que se equilibra con el diminuto tamaño de la falda y las grandes y extra grandes botas
+                    peludas, ahora en tendencia por todo el mundo. Aquí el rosa no es ingenuo: es una declaración de
+                    identidad.
+                </p>
+            </div>
+        </div>
+
+
+        <div class="feature">
+            <div class="imagenes">
+                <div class="thumbnails">
+                    <div class="thumb" data-type="video" data-src="img/360Look3.mp4" aria-label="Vídeo de portada">
+                        <video muted loop playsinline preload="metadata" poster="img/3c.jpg" class="thumb-video">
+                            <source src="img/360Look3.mp4" type="video/mp4">
+                        </video>
+                    </div>
+
+
+                    <div class="thumb" data-type="image" data-src="img/3b.jpg"
+                        style="background-image: url('img/3b.jpg');" aria-label="Mostrar imagen 2"></div>
+                    <div class="thumb" data-type="image" data-src="img/3a.jpg"
+                        style="background-image: url('img/3a.jpg');" aria-label="Mostrar imagen 3"></div>
+                </div>
+
+                <div class="imagen" data-current-type="video"></div>
+            </div>
+            <div class="texto">
+                <h3>I Woke Up and Chose FUNKY!</h3>
+                <p>Este conjunto grita sensualidad y diversión en la disco con sus colores saturados y combinación de
+                    texturas. Accesorios únicos como gafas enormes, lazos en los taconazos o a falta de uno,
+                    dos cinturones, son lo que elevan la silueta con una dosis exacta de exageración y feminidad. Sin
+                    embargo, el verdadero protagonista es el top, que si a era sensual por su material de encaje,
+                    lo es aún más con su escote extremo. Un look rompecuellos en la discoteca, muy influido por los 70s
+                    y muy modernizado para las noches de ahora.
+                </p>
+            </div>
+        </div>
+
+
+
+
+        <div class="feature">
+            <div class="imagenes">
+                <div class="thumbnails">
+                    <div class="thumb" data-type="video" data-src="img/360Look5.mp4" aria-label="Vídeo de portada">
+                        <video muted loop playsinline preload="metadata" poster="img/5c.jpg" class="thumb-video">
+                            <source src="img/360Look5.mp4" type="video/mp4">
+                        </video>
+                    </div>
+
+
+                    <div class="thumb" data-type="image" data-src="img/5b.jpg"
+                        style="background-image: url('img/5b.jpg');" aria-label="Mostrar imagen 2"></div>
+                    <div class="thumb" data-type="image" data-src="img/5a.jpg"
+                        style="background-image: url('img/5a.jpg');" aria-label="Mostrar imagen 3"></div>
+                </div>
+
+                <div class="imagen" data-current-type="video"></div>
+            </div>
+            <div class="texto">
+                <h3>If your outfit isn’t confusing someone, are you really dressing?</h3>
+                <p>Este look define a la perfección a la Gen Z. Muy conectados con la rapidez con la que las redes
+                    sociales traen las tendencias a todas partes del mundo, la minifalda
+                    plisada usada como layering y el top de Hello Kitty son claves en el J-Fashion y le dan el toque
+                    infantil y coqueto que necesita el look, pues todo lo demás expresa la rebeldía y la expresividad
+                    de un adolescente en su búsqueda de identidad, los pantalones cargados y el gorro de rayas ajustado
+                    nos transportan a un Skate Park donde se respira esencia teenager.
+                </p>
+            </div>
+        </div>
+
+
+
+        <div class="feature">
+            <div class="imagenes">
+                <div class="thumbnails">
+                    <div class="thumb" data-type="video" data-src="img/360Look4.mp4" aria-label="Vídeo de portada">
+                        <video muted loop playsinline preload="metadata" poster="img/4c.jpg" class="thumb-video">
+                            <source src="img/360Look4.mp4" type="video/mp4">
+                        </video>
+                    </div>
+
+
+                    <div class="thumb" data-type="image" data-src="img/4b.jpg"
+                        style="background-image: url('img/4b.jpg');" aria-label="Mostrar imagen 2"></div>
+                    <div class="thumb" data-type="image" data-src="img/4a.jpg"
+                        style="background-image: url('img/4a.jpg');" aria-label="Mostrar imagen 3"></div>
+                </div>
+
+                <div class="imagen" data-current-type="video"></div>
+            </div>
+            <div class="texto">
+                <h3>If Barbie went to PE class… in heels.</h3>
+                <p>La hiperfeminidad Y2K deportiva es de lo que trata este outfit. Lo más importante de el es el mono
+                    corto de algodón con la capucha puesta, gritando off-duty diva,
+                    algo que se acentúa con la gran palabra de SASSY en el pecho. El bolso rosa tiene una inspiración a
+                    las animadoras y deportistas con números a sus espaldas,
+                    y el deporte sigue apareciendo hasta cuando bajamos la mirada, con unos calentadores que podrían
+                    remontarse hasta la época de los 80s. ¿Un giro inesperado?
+                    Tacones de aguja en lugar de sneakers. Porque incluso en clase de educación física, la actitud lo es
+                    todo.
+
+                </p>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="video-seccion" class="video-seccion">
+        <div class="video-contenedor">
+            <iframe src="https://youtu.be/zGVwaasXlRQ" title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+        </div>
+    </section>
+
+    <section id="sobre-nosotros" class="sobre-nosotros">
+        <div class="container">
+            <div class="col imagen-sobre">
+                <img src="img/aboutmeSophia.JPG" alt="Nuestro equipo trabajando">
+            </div>
+            <div class="col texto-sobre">
+                <h2>Sobre Skinana</h2>
+                <p class="intro">
+                    Skinana 3D Studio es el proyecto personal de Sophia Santos, artista digital y tradicional de 21 años
+                    apasionada por la moda y el diseño de personajes.
+                    El nombre nace de “skin” (como las apariencias en los videojuegos) y “nana”, número de la suerte en
+                    japonés y apodo femenino. Su enfoque combina arte,
+                    tecnología y estilo con una mirada fresca, experimental y emocional. La artista apuesta por el
+                    diseño de moda 3D como una disciplina en sí misma, todavía poco explorada,
+                    pero con enorme potencial creativo y sostenible. Su objetivo: crear ropa que emocione, sin necesidad
+                    de producirla físicamente.
+
+                <div class="valores">
+                    <div class="valor">
+                        <span class="icono">🌱</span>
+                        <h4>Sostenibilidad</h4>
+                        <p>Diseñar en 3D reduce materiales, tiempos y residuos. Es crear sin contaminar.</p>
+                    </div>
+                    <div class="valor">
+                        <span class="icono">🎨</span>
+                        <h4>Creatividad</h4>
+                        <p>Inspiración libre, sin reglas ni temporadas. Del anime a la alta costura.</p>
+                    </div>
+                    <div class="valor">
+                        <span class="icono">🤝</span>
+                        <h4>Innovación</h4>
+                        <p>Explorando un nuevo lenguaje visual donde la moda y el 3D se encuentran.</p>
+                    </div>
+                </div>
+                <ul class="timeline">
+                    <li>
+                        <strong>2021</strong> – Bachillerato Artístico.
+                    </li>
+                    <li>
+                        <strong>2022</strong> – Fundamentos de Animum, diseño de personajes y animación 3D.
+                    </li>
+                    <li>
+                        <strong>2024</strong> – Ciclo Formativo Grado Superior: Animaciones 3D, juegos y entornos
+                        interactivos.
+                    </li>
+                    <li>
+                        <strong>2025</strong> – ¡Descubres mi primera colección 3D!
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-bg">
+        <div class="text-center mb-4 fade-in delay-1">
+            <h3 class="text-white">¿Te gustaría trabajar conmigo?</h3>
+            <p class="text-white">¡No dudes en ponerte en contacto! Estoy lista para colaborar.</p>
+        </div>
+        <h2 class="text-center text-white mb-4 pb-3 pt-5 fade-in delay-2">Contacto</h2>
+        <form id="form-contacto" action="https://formspree.io/f/xblyjbvy" method="POST"
+            class="col-md-5 fade-in delay-3">
+            <div class="mb-4 w-100 fade-in delay-3">
+                <label for="name" class="form-label">Nombre Completo</label>
+                <input type="text" class="form-control form-control-lg" id="name" name="name"
+                    placeholder="Ingresa tu nombre completo" required>
+            </div>
+            <div class="mb-4 w-100 fade-in delay-3">
+                <label for="email" class="form-label">Correo Electrónico</label>
+                <input type="email" class="form-control form-control-lg" id="email" name="email"
+                    placeholder="Ingresa tu correo" required>
+            </div>
+            <div class="mb-4 w-100 fade-in delay-3">
+                <label for="message" class="form-label">Mensaje</label>
+                <textarea class="form-control form-control-lg" id="message" name="message" rows="5"
+                    placeholder="Escribe tu mensaje aquí" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary fade-in delay-7">Enviar Mensaje</button>
+        </form>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
