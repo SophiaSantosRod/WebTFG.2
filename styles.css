@@ -31,7 +31,7 @@
 }
 
 @font-face {
-  font-family: 'Apple Garamond';
+  font-family: 'Apple Garamond', serif;
   src: url('../fonts/AppleGaramond.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
@@ -53,12 +53,12 @@ body {
 }
 
 .logo {
-  font-family: 'Apple Garamond';
+  font-family: 'Apple Garamond', serif;
   font-size: 2rem;
 }
 
 .nav-links {
-  font-family: 'Apple Garamond';
+  font-family: 'Apple Garamond', serif;
   font-size: 1.2rem;
   list-style: none;
   display: flex;
@@ -145,7 +145,7 @@ body {
 }
 
 .contenido-hero button {
-  font-family: 'Apple Garamond', monospace;
+  font-family: 'Apple Garamond', serif;
   background-color: #fff;
   color: #46291b;
   padding: 0.75rem 1.5rem;
@@ -278,8 +278,8 @@ body {
 
 .feature .texto p {
   color: #46291b;
-  font-family: 'Apple Garamond', monospace;
-  font-size: 1.3rem;
+  font-family: 'Apple Garamond', serif;
+  font-size: 1.2rem;
   line-height: 1.5;
 }
 
@@ -371,7 +371,7 @@ body {
 }
 
 .sobre-nosotros .intro {
-  font-family: 'Apple Garamond', monospace;
+  font-family: 'Apple Garamond', serif;
   font-size: 1.2rem;
   margin-bottom: 2rem;
   line-height: 1.6;
@@ -399,7 +399,7 @@ body {
 }
 
 .valor p {
-  font-family: 'Apple Garamond', monospace;
+  font-family: 'Apple Garamond', serif;
   font-size: 1.1rem;
 }
 
@@ -420,7 +420,7 @@ body {
 }
 
 .timeline li {
-  font-family: 'Apple Garamond', monospace;
+  font-family: 'Apple Garamond', serif;
   position: relative;
   padding: 0.5rem 1rem 0.5rem 1.5rem;
   margin-bottom: 1rem;
@@ -521,7 +521,7 @@ body {
 
 .contact-bg h3,
 .contact-bg h2 {
-  font-family: 'Apple Garamond', monospace;
+  font-family: 'Apple Garamond', serif;
   letter-spacing: 1px;
 }
 
